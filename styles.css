@@ -1,0 +1,126 @@
+body {
+  background-color: purple; 
+  overflow-x:hidden;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.About_me { 
+    font-size: 50px;
+    background-color: #ffff00;
+    text-align: center;
+
+    
+}
+
+.skills {
+  background-color: whitesmoke;
+  text-align: center;
+  border-style: solid;
+  height: 110px;
+  width: 99%;
+  flex: 50%;
+  display: flex;
+  padding-left: .5em;
+}
+
+.python {
+  padding-right: 3em;
+  padding-left: 1em;
+  height: 6em;
+  padding-top: .4em;
+}
+
+.html {
+  padding-right: 3em;
+  height: 7em;
+}
+
+.css {
+  padding-right: 3em;
+  height: 7em;
+}
+
+.django { 
+  padding-right: 3em;
+  height: 6em;
+  padding-top: .4em;
+}
+
+.javascript {
+  padding-right: 3em;
+  height: 6em;
+  padding-top: .4em;
+}
+
+.java {
+  padding-right: 3em;
+  height: 6.5em;
+}
+
+.spring {
+  padding-right: 3em;
+  height: 6em;
+  padding-top: .3em;
+}
+
+.sql {
+  padding-right: 3em;
+  height: 7em;
+}
+
+.BS {
+  padding-right: 2em;
+  height: 7em;
+}
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    left: 0%;
+    top: 0;
+    
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    top: 50px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 0%;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: black;
+  }
+
+  
