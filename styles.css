@@ -1,24 +1,50 @@
 body {
-  background-color: purple; 
+  background-image: linear-gradient(black, #343434, black);
+  background-size: cover;
   overflow-x:hidden;
   padding: 0;
   margin: 0;
 }
 
-h1 {
-    text-align: center;
+.About_me {
+  font-size: 50px;
+  text-align: center;
+  color: white;
 }
 
-.About_me { 
-    font-size: 50px;
-    background-color: #ffff00;
-    text-align: center;
-
-    
+.header{
+  color: white;
 }
 
+.PI {
+  height: 20px;
+  }
+
+.Ptext {
+  color: white;
+  text-align: center;
+}
+
+.Proheader {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+
+}
+
+.Prodesc {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+
+}
+
+.skillname{
+  color: white;
+  text-align: center;
+}
 .skills {
-  background-color: whitesmoke;
+  background-color: white;
   text-align: center;
   border-style: solid;
   height: 110px;
@@ -77,16 +103,47 @@ h1 {
   padding-right: 2em;
   height: 7em;
 }
+
+.PI {
+padding-top: 1em;
+}
+
+.StocksUp {
+  width: 35em;
+  height: 20em;
+  padding-left: 5em;
+}
+
+.Explorer {
+  width: 35em;
+  height: 20em;
+  padding-left: 3em;
+  padding-right: 5em;
+}
+
+.Reflex {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 35em;
+  height: 20em;
+  padding-top: 1em;
+
+}
 .dropbtn {
-    background-color: black;
+    background-color: #5f0909 ;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
     position: fixed;
-    left: 0%;
-    top: 0;
+    left: 0.2%;
+    top: 0.5em;
+    height: 50px;
+    width: 100px;
+    border-radius: 50%;
     
   }
   
@@ -113,14 +170,14 @@ h1 {
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #f1f1f1;}
+  .dropdown-content a:hover {background-color: #f9f9f9;}
   
   .dropdown:hover .dropdown-content {
     display: block;
   }
   
   .dropdown:hover .dropbtn {
-    background-color: black;
+    background-color: #880808;
   }
 
   
