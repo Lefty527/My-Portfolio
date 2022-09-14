@@ -145,6 +145,28 @@ p {
 .Contacts{
   font-size: 30px;
 }
+
+.Cimages{
+  display: flex;
+  margin-top: 2em;
+}
+
+.Gmail {
+  width: 32vh;
+  margin-left: 15vh;
+}
+
+.Github {
+  width: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Linkedin{
+  width: 32vh;
+  margin-right: 15vh;
+}
+
 .dropbtn {
     background-color: #5f0909 ;
     color: white;
