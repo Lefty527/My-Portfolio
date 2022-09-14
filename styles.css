@@ -7,9 +7,19 @@ body {
 }
 
 .About_me {
-  font-size: 50px;
+  font-size: 35px;
   text-align: center;
   color: white;
+  -webkit-text-stroke: 1px #FF0000;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/farisea-dark.fraktur.ttf);
+}
+
+div {
+  font-family: myFirstFont;
 }
 
 .header{
@@ -139,12 +149,8 @@ padding-top: 1em;
     border: none;
     cursor: pointer;
     position: fixed;
-    left: 0.2%;
-    top: 0.5em;
-    height: 50px;
-    width: 100px;
-    border-radius: 50%;
-    
+    left: 0%;
+    top: 0;
   }
   
   .dropdown {
