@@ -28,13 +28,15 @@ p {
 }
 
 .About_me {
-  font-size: 35px;
+  font-size: 40px;
   color: whitesmoke;
   -webkit-text-stroke: 1px black;
+  padding-top: 5vh;
+
 }
-
-
-
+.header {
+  padding-bottom: 0.1vh;
+}
 .Ptext {
   color: whitesmoke;
 }
@@ -52,6 +54,7 @@ p {
 
 .skillname{
   font-size: 20px;
+  padding-top: .5vh;
 }
 
 .skills {
@@ -149,6 +152,7 @@ p {
 .Cimages{
   display: flex;
   margin-top: 2em;
+  margin-bottom:15vh;
 }
 
 .Gmail {
