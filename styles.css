@@ -158,17 +158,22 @@ p {
 .Gmail {
   width: 32vh;
   margin-left: 15vh;
+  margin-right: 40vh;
+  border-style: solid;
 }
 
 .Github {
-  width: 30vh;
+  width: 32vh;
   margin-left: auto;
   margin-right: auto;
+  border-style: solid;
 }
 
 .Linkedin{
   width: 32vh;
+  margin-left: 40vh;
   margin-right: 15vh;
+  border-style: solid;
 }
 
 .dropbtn {
