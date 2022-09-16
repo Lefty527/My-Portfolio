@@ -1,4 +1,4 @@
-body {
+html, body {
   background-image: linear-gradient(#121212, #343434, #121212);
   background-size: cover;
   overflow-x:hidden;
@@ -48,8 +48,6 @@ p {
 
 .Prodesc {
   font-size: 3.8vh;
-
-
 }
 
 .skillname{
@@ -61,7 +59,6 @@ p {
   background-color: whitesmoke;
   text-align: center;
   border-style: solid;
-  height: 16.7vh;
   width: 99%;
   flex: 50%;
   display: flex;
@@ -151,42 +148,46 @@ p {
 
 .Cimages{
   display: flex;
-  margin-top: 5vh;
+  margin-top: 10vh;
   margin-bottom:15vh;
 }
 
 .Gmail {
   width: 32vh;
+  /* margin-left: 15vh;
+  margin-right: 40vh; */
+}
+
+.Gmaillink {
+  width: 32vw;
   margin-left: 15vh;
   margin-right: 40vh;
-  border-style: solid;
 }
 
 .Github {
   width: 32vh;
   margin-left: auto;
   margin-right: auto;
-  border-style: solid;
 }
 
 .Linkedin{
   width: 32vh;
   margin-left: 40vh;
   margin-right: 15vh;
-  border-style: solid;
 }
 
 .dropbtn {
-    background-color: #5f0909 ;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    position: fixed;
-    left: 0;
-    top: 0;
-  }
+  background-color: #818589 ;
+   color: white;
+   padding: 20px;
+  width: 10vw;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  left: 0;
+  top: 0;
+ }
   
   .dropdown {
     position: relative;
@@ -196,7 +197,7 @@ p {
   .dropdown-content {
     display: none;
     position: fixed;
-    top: 50px;
+    top: 74px;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -218,32 +219,257 @@ p {
   }
   
   .dropdown:hover .dropbtn {
-    background-color: #880808;
+    background-color: #36454F;
    }
 
+   /*Phones*/
    @media only screen 
-   and (min-device-width: 412px) 
-   and (max-device-width: 1024px) 
+   and (max-device-width: 600px) 
    and (-webkit-min-device-pixel-ratio: 1) {
     .skills{
       background-color: whitesmoke;
       text-align: center;
       border-style: solid;
-      height: 16.7vh;
+      border-color: black;
+      -webkit-text-stroke: 3vh Gray;
+      height: fit-content;
       width: 99%;
       flex: 100%;
-      display: grid;
+      display: block;
       grid-template-columns: auto auto auto;
-      padding-left: 7vw;
+      padding-bottom: 0;
+      padding-left: 5vw;
+    }
+
+    .About_me {
+      font-size: 5vh;
     }
 
     .Proheader {
-      font-size: 4vw;
-      padding-top: 20vh;
+      font-size: 8vw;
+      padding-top: 6vh;
       text-align:center
     }
+
     .Prodesc{
-      font-size: 3vw;
+      font-size: 8vw;
       text-align: center;
     }
- }
+
+    .StocksUp{
+      margin-left: 12vw;
+      width: 75%;
+      margin-bottom: 2vh;
+    }
+  
+    .Explorer{
+      margin-left: 12vw;
+      width: 75%;
+      margin-bottom: 2vh;
+    }
+
+    .Reflex{
+      margin-left: 12vw;
+      width: 75%
+    }
+
+    .Cimages{
+      display: flex;
+      margin-top: 5vh;
+      margin-bottom:10vh;
+    }
+    
+    .Gmail {
+      width: 20vw;
+    }
+    
+    .Gmaillink {
+      width: 20vw;
+      margin-left: 10vw;
+      margin-right: 10vw;
+    }
+    
+    .Github {
+      width: 20vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .Linkedin{
+      width: 20vw;
+      margin-left: 10vw;
+      margin-right: 10vw;
+      padding-top: 0;
+    }
+  
+    .dropbtn {
+      background-color: #818589 ;
+       color: white;
+       padding: 20px;
+      width: 25vw;
+      font-size: 30px;
+      border: none;
+      cursor: pointer;
+      position: fixed;
+      left: 0;
+      top: 0;
+     }
+  }
+/*Ipads*/
+  @media only screen 
+  and (min-device-width:601px)
+  and (max-device-width: 1000px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .skills{
+      background-color: whitesmoke;
+      text-align: center;
+      border-style: solid;
+      border-color: black;
+      -webkit-text-stroke: 3vh Gray;
+      height: fit-content;
+      width: 99%;
+      flex: 100%;
+      display: block;
+      grid-template-columns: auto auto auto;
+      padding-bottom: 0;
+      padding-left: 5vw;
+    }
+
+    .Proheader {
+      font-size: 8vw;
+      padding-top: 6vh;
+      text-align:center
+    }
+
+    .Prodesc{
+      font-size: 8vw;
+      text-align: center;
+    }
+
+    .StocksUp{
+      margin-left: 12vw;
+      width: 75%;
+      margin-bottom: 2vh;
+    }
+  
+    .Explorer{
+      margin-left: 12vw;
+      width: 75%;
+      margin-bottom: 2vh;
+    }
+
+    .Reflex{
+      margin-left: 12vw;
+      width: 75%
+    }
+
+    .Cimages{
+      display: flex;
+      margin-top: 5vh;
+      margin-bottom:10vh;
+    }
+    
+    .Gmail {
+      width: 20vw;
+    }
+    
+    .Gmaillink {
+      width: 20vw;
+      margin-left: 10vw;
+      margin-right: 10vw;
+    }
+    
+    .Github {
+      width: 20vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .Linkedin{
+      width: 20vw;
+      margin-left: 10vw;
+      margin-right: 10vw;
+      padding-top: 0;
+    }
+    
+  }
+/*Mobile devices slightly bigger then Ipads but not Desktop*/
+  @media only screen 
+  and (min-device-width:1001px)
+  and (max-device-width: 1300px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .skills{
+      background-color: whitesmoke;
+      text-align: center;
+      border-style: solid;
+      border-color: black;
+      -webkit-text-stroke: 3vh Gray;
+      height: fit-content;
+      width: 99%;
+      flex: 100%;
+      display: block;
+      grid-template-columns: auto auto auto;
+      padding-bottom: 0;
+      padding-left: 5vw;
+    }
+
+    .Proheader {
+      font-size: 8vw;
+      padding-top: 6vh;
+      text-align:center
+    }
+
+    .Prodesc{
+      font-size: 8vw;
+      text-align: center;
+    }
+
+    .StocksUp{
+      margin-left: 12vw;
+      width: 75%;
+      margin-bottom: 2vh;
+    }
+  
+    .Explorer{
+      margin-left: 12vw;
+      width: 75%;
+      margin-bottom: 2vh;
+    }
+
+    .Reflex{
+      margin-left: 12vw;
+      width: 75%
+    }
+
+    .Cimages{
+      display: flex;
+      margin-top: 5vh;
+      margin-bottom:10vh;
+    }
+    
+    .Gmail {
+      width: 20vw;
+      height: vh;
+      /* margin-left: 15vh;
+      margin-right: 40vh; */
+    }
+    
+    .Gmaillink {
+      width: 20vw;
+      margin-left: 10vw;
+      margin-right: 10vw;
+    }
+    
+    .Github {
+      width: 20vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .Linkedin{
+      width: 20vw;
+      margin-left: 10vw;
+      margin-right: 10vw;
+      padding-top: 0;
+    }
+  }
