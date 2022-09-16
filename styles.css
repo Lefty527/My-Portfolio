@@ -25,6 +25,7 @@ p {
   -webkit-text-stroke: .22vh black;
   color: whitesmoke;
   text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .About_me {
@@ -160,8 +161,8 @@ p {
 .Gmaillink {
   height: 25vh;
   width: 12vw;
-  margin-left: 15vw;
-  margin-right: 15vw;
+  margin-left: 16vw;
+  margin-right: 16vw;
 }
 
 .Github {
@@ -174,8 +175,14 @@ p {
 .Linkedin{
   height: 25vh;
   width: 12vw;
-  margin-left: 15vw;
-  margin-right: 15vw;
+}
+
+.linklink{
+  height: 25vh;
+  width: 12vw;
+  margin-left: 16vw;
+  margin-right: 16vw;
+
 }
 
 .dropbtn {
@@ -282,27 +289,37 @@ p {
     }
     
     .Gmail {
-      width: 20vw;
+      height: 8vh;
+      width: 15vw;
     }
     
     .Gmaillink {
-      width: 20vw;
-      margin-left: 10vw;
-      margin-right: 10vw;
+      height: 8vh;
+      width: 15vw;
+      margin-left: 15vw;
+      margin-right: 15vw;
     }
     
     .Github {
-      width: 20vw;
+      height: 8vh;
+      width: 15vw;
       margin-left: auto;
       margin-right: auto;
     }
     
     .Linkedin{
-      width: 20vw;
-      margin-left: 10vw;
-      margin-right: 10vw;
-      padding-top: 0;
+      height: 8vh;
+      width: 15vw;
     }
+
+    .linklink {
+     height: 8vh;
+     width: 15vw;
+     margin-left: 15vw;
+     margin-right: 15vw;
+    }
+
+
   
     .dropbtn {
       background-color: #818589 ;
@@ -372,27 +389,35 @@ p {
     }
     
     .Gmail {
-      width: 20vw;
+      height: 12vh;
+      width: 15vw;
     }
     
     .Gmaillink {
-      width: 20vw;
-      margin-left: 10vw;
-      margin-right: 10vw;
+      height: 12vh;
+      width: 15vw;
+      margin-left: 15vw;
+      margin-right: 15vw;
     }
     
     .Github {
-      width: 20vw;
+      height: 12vh;
+      width: 15vw;
       margin-left: auto;
       margin-right: auto;
     }
     
     .Linkedin{
-      width: 20vw;
-      margin-left: 10vw;
-      margin-right: 10vw;
-      padding-top: 0;
+      height: 12vh;
+      width: 15vw;
     }
+
+    .linklink {
+      height: 12vh;
+      width: 15vw;
+      margin-left: 15vw;
+      margin-right: 15vw;
+     }
     
   }
 /*Mobile devices slightly bigger then Ipads but not Desktop*/
@@ -407,7 +432,7 @@ p {
       border-color: black;
       -webkit-text-stroke: 3vh Gray;
       height: fit-content;
-      width: 99%;
+      width: 95%;
       flex: 100%;
       display: block;
       grid-template-columns: auto auto auto;
@@ -470,8 +495,11 @@ p {
     
     .Linkedin{
       width: 20vw;
+    }
+
+    .linklink {
+      width: 20vw;
       margin-left: 10vw;
       margin-right: 10vw;
-      padding-top: 0;
-    }
+     }
   }
