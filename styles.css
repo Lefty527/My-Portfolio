@@ -51,7 +51,7 @@ p {
 }
 
 .skillname{
-  font-size: 3vh;
+  font-size: 4vh;
   padding-top: .5vh;
 }
 
@@ -153,27 +153,29 @@ p {
 }
 
 .Gmail {
-  width: 32vh;
-  /* margin-left: 15vh;
-  margin-right: 40vh; */
+  height: 25vh;
+  width: 12vw;
 }
 
 .Gmaillink {
-  width: 32vw;
-  margin-left: 15vh;
-  margin-right: 40vh;
+  height: 25vh;
+  width: 12vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 
 .Github {
-  width: 32vh;
+  height: 25vh;
+  width: 12vw;
   margin-left: auto;
   margin-right: auto;
 }
 
 .Linkedin{
-  width: 32vh;
-  margin-left: 40vh;
-  margin-right: 15vh;
+  height: 25vh;
+  width: 12vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 
 .dropbtn {
