@@ -122,7 +122,6 @@ p {
   margin-left: 6em;
   border-style: solid;
   border-color: whitesmoke;
-
 }
 
 .Explorer {
@@ -133,6 +132,7 @@ p {
   border-color: whitesmoke;
 }
 
+
 .Reflex {
   margin-left: 24em;
   width: 35em;
@@ -140,7 +140,6 @@ p {
   margin-top: .5em;
   border-style: solid;
   border-color: whitesmoke;
-
 }
 
 .Contacts{
@@ -423,7 +422,7 @@ p {
 /*Mobile devices slightly bigger then Ipads but not Desktop*/
   @media only screen 
   and (min-device-width:1001px)
-  and (max-device-width: 1300px) 
+  and (max-device-width: 2000px) 
   and (-webkit-min-device-pixel-ratio: 1) {
     .skills{
       background-color: whitesmoke;
@@ -441,13 +440,13 @@ p {
     }
 
     .Proheader {
-      font-size: 8vw;
+      font-size: 4vw;
       padding-top: 6vh;
       text-align:center
     }
 
     .Prodesc{
-      font-size: 8vw;
+      font-size: 3vw;
       text-align: center;
     }
 
