@@ -421,7 +421,7 @@ p {
   }
 /*Mobile devices slightly bigger then Ipads but not Desktop*/
   @media only screen 
-  and (min-device-width:1400px)
+  and (min-device-width:1000px)
   and (max-device-width: 2000px) 
   and (-webkit-min-device-pixel-ratio: 1) {
     .skills{
