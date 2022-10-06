@@ -318,13 +318,11 @@ p {
      margin-right: 15vw;
     }
 
-
-  
     .dropbtn {
       background-color: #818589 ;
        color: white;
        padding: 20px;
-      width: 25vw;
+      width: 28vw;
       font-size: 30px;
       border: none;
       cursor: pointer;
@@ -333,6 +331,7 @@ p {
       top: 0;
      }
   }
+
 /*Ipads*/
   @media only screen 
   and (min-device-width:601px)
@@ -417,11 +416,24 @@ p {
       margin-left: 15vw;
       margin-right: 15vw;
      }
+
+     .dropbtn {
+      background-color: #818589 ;
+       color: white;
+       padding: 20px;
+       width: 15vw;
+       font-size: 30px;
+       border: none;
+       cursor: pointer;
+       position: fixed;
+       left: 0;
+       top: 0;
+     }
     
   }
 /*Mobile devices slightly bigger then Ipads but not Desktop*/
   @media only screen 
-  and (min-device-width:1000px)
+  and (min-device-width:1001px)
   and (max-device-width: 2000px) 
   and (-webkit-min-device-pixel-ratio: 1) {
     .skills{
