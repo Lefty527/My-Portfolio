@@ -5,6 +5,25 @@ html, body {
   padding: 0;
   margin: 0;
 }
+/* pasted code */
+/* .pythoncard {
+  height: 500px;
+  width: 335px;
+  padding: 20px 35px;
+  background-color: #F5B112;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+} */
 
 @font-face {
   font-family: myFirstFont;
@@ -16,16 +35,12 @@ div {
 }
 
 h1 {
-  -webkit-text-stroke: .19vh black;
-  color: whitesmoke;
   text-align: center;
 }
 
 p {
-  -webkit-text-stroke: .22vh black;
-  color: whitesmoke;
   text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
 
 .About_me {
@@ -33,27 +48,116 @@ p {
   color: whitesmoke;
   -webkit-text-stroke: 0.15vh black;
   padding-top: 5vh;
-
 }
+
+.description {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .header {
   padding-bottom: 0.1vh;
 }
-.Ptext {
-  color: whitesmoke;
-}
 
 .Proheader {
-  font-size: 4vh;
-
+  font-size: 1vh;
+  -webkit-text-stroke: .19vh black;
+  color: whitesmoke;
+  text-align: center;
 }
 
-.Prodesc {
-  font-size: 3.8vh;
+.desc{
+  font-size: 3.7vh;
+  -webkit-text-stroke: .22vh black;
+  color: whitesmoke;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+/* Project-Grid */
+
+.prowrapper {
+  display: grid;
+  grid-template-columns:repeat(3, .25fr);
+  grid-gap: 3em;
+  grid-auto-rows: minmax(300px, auto);
+  padding: 1em;
+  justify-content: center;
+}
+
+.prowrapper > div {
+  background: #818181;
+  padding:1em;
+  border-radius: 20px;
+}
+
+.prowrapper > div:nth-child(odd) {
+  background:#121212;
+  padding:1em;
+  border-radius: 20px;
+}
+
+.gridheaders {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  -webkit-text-stroke: 0.12vh #121212 ;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.prodesc {
+  font-size: 1.83vh;
+  -webkit-text-stroke: .1vh black;
+  color: whitesmoke;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.probutton {
+  text-align: center;
+}
+
+.probutton1 {
+  padding-top: 2vh;
+}
+
+.probutton3 {
+  padding-top: 2.5vh;
+}
+
+.probutton4 {
+  padding-top: .25vh;
+}
+
+.prowrapper img {
+  width: 6rem;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+}
+
+.buttondesign {
+  box-shadow: 0px 1px 0px 0px #121212;
+	background-color:whitesmoke;
+	border-radius:15px;
+	border:2px solid #121212;
+	display:inline-block;
+	cursor:pointer;
+	color:#343434;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #f9f9f9;
+}
+
+/* Project-Grid end */
+
 
 .skillname{
-  font-size: 4vh;
-  padding-top: .5vh;
+  font-size: 6vh;
+  padding-top: 6vh;
+  -webkit-text-stroke: .19vh black;
+  color: whitesmoke;
+
 }
 
 .skills {
@@ -116,34 +220,14 @@ p {
   height: 7em;
 }
 
-.StocksUp {
-  width: 35em;
-  height: 20em;
-  margin-left: 6em;
-  border-style: solid;
-  border-color: whitesmoke;
-}
-
-.Explorer {
-  width: 35em;
-  height: 20em;
-  margin-right: 5em;
-  border-style: solid;
-  border-color: whitesmoke;
-}
-
-
-.Reflex {
-  margin-left: 24em;
-  width: 35em;
-  height: 20em;
-  margin-top: .5em;
-  border-style: solid;
-  border-color: whitesmoke;
-}
-
 .Contacts{
-  font-size: 4vh;
+  font-size: 3.8vh;
+  -webkit-text-stroke: .19vh black;
+  color: whitesmoke;
+}
+
+.Cheader {
+  font-size: 5vh;
 }
 
 .Cimages{
@@ -234,6 +318,7 @@ p {
    @media only screen 
    and (max-device-width: 600px) 
    and (-webkit-min-device-pixel-ratio: 1) {
+
     .skills{
       background-color: whitesmoke;
       text-align: center;
@@ -259,26 +344,37 @@ p {
       text-align:center
     }
 
-    .Prodesc{
-      font-size: 8vw;
-      text-align: center;
+    .prowrapper {
+      display: grid;
+      grid-template-columns:repeat(1, 1fr);
+      grid-gap: 2em;
+      padding: 1em;
+      justify-content: center;
+    }
+    
+    .prodesc {
+      font-size: 2.6vh;
+      -webkit-text-stroke: .12vh black;
     }
 
-    .StocksUp{
-      margin-left: 12vw;
-      width: 75%;
-      margin-bottom: 2vh;
+    .probutton1 {
+      padding-top: 1vh;
     }
-  
-    .Explorer{
-      margin-left: 12vw;
-      width: 75%;
-      margin-bottom: 2vh;
+    
+    .probutton3 {
+      padding-top: .25vh;
     }
-
-    .Reflex{
-      margin-left: 12vw;
-      width: 75%
+    
+    .probutton4 {
+      padding-top: .25vh;
+    }
+    
+    .prowrapper img {
+      width: 6.5rem;
+    }
+    
+    .buttondesign {
+      font-size:18px;
     }
 
     .Cimages{
@@ -369,26 +465,42 @@ p {
       text-align:center
     }
 
-    .Prodesc{
-      font-size: 8vw;
-      text-align: center;
+    .prowrapper {
+      display: grid;
+      grid-template-columns:repeat(2, .55fr);
+      grid-auto-rows: minmax(10px, auto);
+      grid-gap: 2em;
+      padding: 1em;
+      justify-content: center;
+    }
+    
+    .prodesc {
+      font-size: 2.2vh;
+      -webkit-text-stroke: .12vh black;
     }
 
-    .StocksUp{
-      margin-left: 12vw;
-      width: 75%;
-      margin-bottom: 2vh;
+    .probutton1 {
+      padding-top: 2vh;
     }
-  
-    .Explorer{
-      margin-left: 12vw;
-      width: 75%;
-      margin-bottom: 2vh;
+    
+    .probutton3 {
+      padding-top: .25vh;
+    }
+    
+    .probutton4 {
+      padding-top: .25vh;
     }
 
-    .Reflex{
-      margin-left: 12vw;
-      width: 75%
+    .probutton5 {
+      padding-top: 2vh;
+    }
+    
+    .prowrapper img {
+      width: 9rem;
+    }
+    
+    .buttondesign {
+      font-size:20px;
     }
 
     .Cimages{
@@ -471,23 +583,6 @@ p {
     .Prodesc{
       font-size: 3vw;
       text-align: center;
-    }
-
-    .StocksUp{
-      margin-left: 12vw;
-      width: 75%;
-      margin-bottom: 2vh;
-    }
-  
-    .Explorer{
-      margin-left: 12vw;
-      width: 75%;
-      margin-bottom: 2vh;
-    }
-
-    .Reflex{
-      margin-left: 12vw;
-      width: 75%
     }
 
     .Cimages{

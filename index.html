@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="static/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="icon" href="profile-pics/LS.png">
+    <link rel="icon" href="static/profile-pics/LS.png">
 </head>
 <body>
   <section class = "About" id ="about">
@@ -15,24 +15,25 @@
         <h1>Lukas William Strider</h1>
       </div>
       <div class = "description">
-        <p>I am a student of Base Camp Coding Academy learning to become a full-stack developer. </p>
+        <p>I was born in Charleston, MS. I graduated high school from Gateway Christian Schools and attended Base Camp Coding Academy, which is an 11-month program that takes recent Mississippi high school graduates and teaches them to become software developers. </p>
       </div>
     </div>
   </section>
   <section class = "Skill" id ="skill">
     <div class="skillname"><h1>Skills</h1></div>
-<div class ="skills">
-      <img class="python" src ="skill_logos/pythonlogo.png">
-      <img class="html" src ="skill_logos/HTMLlogo.png">
-      <img class="css" src ="skill_logos/Csslogo.png">
-      <img class="django" src ="skill_logos/Djangologo.png">
-      <img class="javascript" src ="skill_logos/JavaScriptSquare.png">
-      <img class="java" src ="skill_logos/Javalogo.png">
-      <img class="spring" src ="skill_logos/Springlogo.png">
-      <img class="sql" src ="skill_logos/SQLlogo.png">
-      <img class="BS" src ="skill_logos/BootstrapSquare.png">
+    <div class ="skills">
+      <img class="python" src ="static/skill_logos/pythonlogo.png">
+      <img class="html" src ="static/skill_logos/HTMLlogo.png">
+      <img class="css" src ="static/skill_logos/Csslogo.png">
+      <img class="django" src ="static/skill_logos/Djangologo.png">
+      <img class="javascript" src ="static/skill_logos/JavaScriptSquare.png">
+      <img class="java" src ="static/skill_logos/Javalogo.png">
+      <img class="spring" src ="static/skill_logos/Springlogo.png">
+      <img class="sql" src ="static/skill_logos/SQLlogo.png">
+      <img class="BS" src ="static/skill_logos/BootstrapSquare.png">
     </div>
   </section>
+
 <div class="dropdown">
   <button class="dropbtn">Menu</button>
   <div class="dropdown-content">
@@ -43,18 +44,78 @@
   </div>
 </div>
 
-<div class="Ptext">
 <section class = "Pro" id = "pro">
-  <div class="Proheader">
-    <h1>Projects</h1>
-  </div>
+    <div class="Proheader">
+      <h1>Projects</h1>
+    </div>
 </section>
+
+<div class="prowrapper">
+  <div class="project1 pcontent">
+    <p><img class="tourimg" src="static/project-pics/Leo.png" alt="Leo"></p>
+    <h1 class="gridheaders">Touriste Luxury</h1>
+    <p class="prodesc">Touriste was our final project at Base Camp Coding Academy, where my team and I built a website for a real client.<br><br>Languages: HTML, CSS, JavaScript</p>
+    <div class="probutton1 probutton">
+      <a href="https://www.touristeluxury.com/" target="_blank">
+        <button class="buttondesign">Website</button>
+      </a>
+    </div>
+  </div>
+
+  <div class="project2 pcontent">
+    <p><img class="mtgimg" src="static/project-pics/mtg_logo.png" alt="mtg"></p>
+    <h1 class="gridheaders">Magicard</h1>
+    <p class="prodesc">This application is a Magic the Gathering card-manager and it allows its users to access an extensive database of cards and enables them
+      to curate a personalized deck by selectively adding the cards of their choice.<br><br>Languages: Java, HTML, SQL</p>
+    <div class="probutton2 probutton">
+      <a href="https://github.com/NuzziVF/card-manager" target="_blank">
+        <button class="buttondesign">Code</button>
+      </a>
+    </div>
+  </div>
+
+  <div class="project3 pcontent">
+    <p><img class="stockimg" src="static/project-pics/stockup.png" alt="Stock"></p>
+    <h1 class="gridheaders">Stock Market</h1>
+    <p class="prodesc">
+      As a group project, my team and I built a complex market stock market sim of 5 different companies.<br><br>Languages: Python
+    </p>
+    <div class="probutton3 probutton">
+      <a href="https://github.com/Mike469/Stock-Market" target="_blank">
+        <button class="buttondesign">Code</button>
+      </a>
+    </div>
+    <div class="probutton4 probutton">
+      <a href="https://replit.com/@Narmour/Unit-Project-1?v=1" target="_blank">
+        <button class="buttondesign">Demo</button>
+      </a>
+    </div>
+  </div>
+
+  <div class="project4 pcontent">
+    <p><img class="keyimg" src="static/project-pics/keyboard.png" alt="board"></p>
+    <h1 class="gridheaders">Typing Game</h1>
+    <p class="prodesc">
+      A simple reflex game where you quickly type the letter or number thats appears. <br><br>Languages: Python
+    </p>
+    <div class="probutton5 probutton">
+      <a href="https://replit.com/@Bcaustin/Unit-Project-2#main.py" target="_blank">
+        <button class="reflex-button buttondesign">Demo</button>
+      </a>
+  </div>
+  </div>
+
+  <div class="project5 pcontent">
+    <p><img class="questionimg" src="static/project-pics/question.png" alt="?"></p>
+    <h1 class="gridheaders">COMING SOON</h1>
+  </div>
+
+  <div class="project6 pcontent">
+    <p><img class="questionimg" src="static/project-pics/question.png" alt="?"></p>
+    <h1 class="gridheaders">COMING SOON</h1>
+  </div>
 </div>
-<div class="PI">
- <a target="_blank" href="https://replit.com/@Narmour/Unit-Project-1?from=notifications#main.py"><img class="StocksUp" src = "project-pics/StocksUp.jpg"></a>
- <a target="_blank" href="https://replit.com/@LukasStrider/Explorer-project#main.py"><img class="Explorer" src = "project-pics/zoo-image.jpg"></a>
- <a target="_blank" href="https://replit.com/@Bcaustin/Unit-Project-2?from=notifications#main.py"><img class = "Reflex" src = "project-pics/fast_hands.jpg"></a>
-</div>
+
 <section class = "Con" id = "con">
 <div class="Contacts">
   <div class="Cheader">
@@ -64,9 +125,11 @@
     <p>Ways to contact me</p>
   </div>
   <div class="Cimages">
-    <a class="Gmaillink" href="mailto:lastlylukasis@gmail.com"><img class="Gmail" src="contact-icons/gmail.png"></a>
-    <a target="_blank" href="https://github.com/Lefty527"><img class="Github" src="contact-icons/github.png"></a>
-    <a class="linklink" target="_blank" href="https://www.linkedin.com/in/lukas-william-strider-7a9127242/"><img class="Linkedin" src="contact-icons/link.png"></a>
+    <a class="Gmaillink" href="mailto:lastlylukasis@gmail.com"><img class="Gmail" src="static/contact-icons/gmail.png"></a>
+    <a target="_blank" href="https://github.com/Lefty527"><img class="Github" src="static/contact-icons/github.png"></a>
+    <a class="linklink" target="_blank" href="https://www.linkedin.com/in/lukas-strider-7a9127242?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bu1Ht4UhfT62FZoDAHSb7%2BQ%3D%3D">
+      <img class="Linkedin" src="static/contact-icons/link.png">
+    </a>
   </div>
 </div>
 </section>
